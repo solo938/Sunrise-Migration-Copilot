@@ -1,4 +1,4 @@
-// AnalysisDisplay.tsx  (was AnalysisResults.tsx — renamed to match your directory)
+// AnalysisDisplay.tsx  
 import { useState } from "react";
 import type { ParsedContract } from "../utils/solidityParser";
 
