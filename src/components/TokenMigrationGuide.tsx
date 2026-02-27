@@ -1,4 +1,4 @@
-// TokenMigrationGuide.tsx  (was TokenMigrationDemo.tsx — renamed to match your directory)
+// TokenMigrationGuide.tsx  
 import { useState } from "react";
 import { buildMigrationPlan, getNTTTransferSnippet, getSDKInitSnippet } from "../utils/wormholeDemo";
 import type { ParsedContract } from "../utils/solidityParser";
@@ -249,7 +249,7 @@ export default function TokenMigrationGuide({ parsed }: Props) {
   │  ┌────────────────┐      │ ────────────▶ │  ┌─────────────────┐                 │
   │  │  lock / burn   │      │  VAA + relay  │  │  mint / unlock  │                 │
   │  └────────────────┘      │               │  └────────┬────────┘                 │
-  │  NTT Manager             │               │           │                           │
+  │  NTT Manager             │               │           │                          │
   │  ┌────────────────┐      │               │  ┌────────▼────────┐                 │
   │  │  rate limiter  │      │               │  │  Sunrise DEX    │                 │
   │  │  transceiver   │      │               │  │  liquidity pool │                 │
@@ -261,8 +261,7 @@ export default function TokenMigrationGuide({ parsed }: Props) {
                                              │  └──────────────────────────────┘    │
                                              └──────────────────────────────────────┘
 
-  SDK: const wh = await wormhole("Testnet", [evm, solana]);
-  Docs: https://wormhole.com/docs/tools/typescript-sdk/get-started/`}</pre>
+ `}</pre>
         </div>
       </div>
     </div>
