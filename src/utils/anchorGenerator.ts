@@ -1,4 +1,4 @@
-// anchorGenerator.ts
+
 // Generates Anchor skeleton files from a ParsedContract
 
 import type { ParsedContract, ContractDef, FunctionDef } from "./solidityParser";
