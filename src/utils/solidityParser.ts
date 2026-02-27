@@ -1,5 +1,3 @@
-// solidityParser.ts
-// Uses @solidity-parser/parser to extract structured info from .sol source
 
 export interface StateVariable {
     name: string;
