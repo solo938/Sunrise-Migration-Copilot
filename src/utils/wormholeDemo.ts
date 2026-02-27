@@ -1,7 +1,5 @@
-// wormholeDemo.ts
+
 // Wormhole TypeScript SDK integration — EVM → Solana token migration
-// Based on official docs: https://wormhole.com/docs/tools/typescript-sdk/get-started/
-// SDK: @wormhole-foundation/sdk
 
 // ── Types ─────────────────────────────────────────────────────────────
 export type SupportedSourceChain =
@@ -370,7 +368,7 @@ export const ARCHITECTURE_DIAGRAM = `
   │  ┌──────────────────┐        │ ──────────▶  │  ┌────────────────┐                 │
   │  │  lock / burn     │        │  VAA + relay │  │  mint / unlock │                 │
   │  └──────────────────┘        │              │  └───────┬────────┘                 │
-  │                              │              │          │                           │
+  │                              │              │          │                          │
   │  NTT Manager                 │              │  ┌───────▼────────┐                 │
   │  ┌──────────────────┐        │              │  │ Sunrise DEX    │                 │
   │  │ rate limiting    │        │              │  │ liquidity pool │                 │
